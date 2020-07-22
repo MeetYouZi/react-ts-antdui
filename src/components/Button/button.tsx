@@ -52,6 +52,7 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   if (btnType === ButtonType.Link && href) {
     return (
+      // ...restProps 可以将组件上的属性和方法都挂载到标签上
       <a
         className={classes}
         href={href}
