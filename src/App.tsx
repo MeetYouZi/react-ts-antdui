@@ -1,7 +1,6 @@
 import React from 'react';
-// import './App.css';
 import Hello from './components/Hello'
-import LikeButton from "components/LikeButton";
+import LikeButton from "./components/LikeButton";
 import useURLLoader from "./hooks/useURLLoader";
 import Button, {ButtonType, ButtonSize} from './components/Button/button'
 
