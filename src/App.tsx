@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import Hello from './components/Hello'
-import LikeButton from "./components/LikeButton";
-import useURLLoader from "./hooks/useURLLoader";
+import LikeButton from './components/LikeButton'
+import useURLLoader from './hooks/useURLLoader'
 import Button, {ButtonType, ButtonSize} from './components/Button/button'
 
 interface IHelloProps {
@@ -40,7 +40,7 @@ const App: React.FC = () => {
       <ThemeContext.Provider value={themes.dark}>
         <header className="App-header">
           <Hello/>
-          <Button btnType={ButtonType.Primary}> hello </Button>
+          <Button btnType={ButtonType.Primary} size={ButtonSize.Small}> hello </Button>
           <Button btnType={ButtonType.Link} href="http://www.baidu.com"> hello </Button>
           <LikeButton></LikeButton>
           <p>

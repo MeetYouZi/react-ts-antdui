@@ -1,0 +1,20 @@
+// scss 以'_'开头命名的文件 不会被编译成 css 文件
+// 以'_' 开头，引入不需要加 _
+
+// config
+@import 'variables';
+
+// layout
+@import 'reboot';
+
+// layout
+@import 'mixin';
+
+// Button
+@import 'src/components/Button/style';
+
+// Alert
+@import "src/components/Alert/style";
+
+// Menu
+@import "src/components/Menu/style";
